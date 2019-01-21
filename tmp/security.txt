@@ -1,0 +1,15 @@
+1. 
+Przeczytaj:
+
+https://niebezpiecznik.pl/post/ustawa-inwigilacyjna-jak-sie-bronic-przed-podgladaniem-przez-policje-i-sluzby/
+https://docs.google.com/document/d/1iiKYZJWGihNculKbEyA5agI-32EjaYuEvcTy-XTu23Y/edit
+2. 
+Zaimplementuj minimalny protokol bezpieczenstwa (w tej kolejnosci):
+
+disk encryption
+firewall
+antivirus (polecam Norton Security)
+VPN (polecam Mullvad) - wszystkie urzadzenia, tzn. Macbook, iMac, iPhone, iPad
+password manager (polecam 1Password) + zmien wszystkie wazne hasla
+system/app auto updates
+Options

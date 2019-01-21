@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.deps.json
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.dll
+/Users/krossa/nauka/exercism/csharp/raindrops/bin/Debug/netcoreapp2.1/Raindrops.pdb
+/Users/krossa/nauka/exercism/csharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.dll
+/Users/krossa/nauka/exercism/csharp/raindrops/obj/Debug/netcoreapp2.1/Raindrops.pdb

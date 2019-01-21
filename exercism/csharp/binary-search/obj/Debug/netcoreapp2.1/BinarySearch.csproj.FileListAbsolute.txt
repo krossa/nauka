@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/BinarySearch.deps.json
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/BinarySearch.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/BinarySearch.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/BinarySearch.dll
+/Users/krossa/nauka/exercism/csharp/binary-search/bin/Debug/netcoreapp2.1/BinarySearch.pdb
+/Users/krossa/nauka/exercism/csharp/binary-search/obj/Debug/netcoreapp2.1/BinarySearch.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/binary-search/obj/Debug/netcoreapp2.1/BinarySearch.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/binary-search/obj/Debug/netcoreapp2.1/BinarySearch.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/binary-search/obj/Debug/netcoreapp2.1/BinarySearch.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/binary-search/obj/Debug/netcoreapp2.1/BinarySearch.dll
+/Users/krossa/nauka/exercism/csharp/binary-search/obj/Debug/netcoreapp2.1/BinarySearch.pdb

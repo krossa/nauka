@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/ReverseString.deps.json
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/ReverseString.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/ReverseString.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/ReverseString.dll
+/Users/krossa/nauka/exercism/csharp/reverse-string/bin/Debug/netcoreapp2.1/ReverseString.pdb
+/Users/krossa/nauka/exercism/csharp/reverse-string/obj/Debug/netcoreapp2.1/ReverseString.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/reverse-string/obj/Debug/netcoreapp2.1/ReverseString.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/reverse-string/obj/Debug/netcoreapp2.1/ReverseString.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/reverse-string/obj/Debug/netcoreapp2.1/ReverseString.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/reverse-string/obj/Debug/netcoreapp2.1/ReverseString.dll
+/Users/krossa/nauka/exercism/csharp/reverse-string/obj/Debug/netcoreapp2.1/ReverseString.pdb

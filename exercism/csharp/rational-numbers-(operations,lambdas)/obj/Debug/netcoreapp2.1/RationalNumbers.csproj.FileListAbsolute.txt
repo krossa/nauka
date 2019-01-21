@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/RationalNumbers.deps.json
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/RationalNumbers.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/RationalNumbers.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/RationalNumbers.dll
+/Users/krossa/nauka/exercism/csharp/rational-numbers/bin/Debug/netcoreapp2.1/RationalNumbers.pdb
+/Users/krossa/nauka/exercism/csharp/rational-numbers/obj/Debug/netcoreapp2.1/RationalNumbers.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/rational-numbers/obj/Debug/netcoreapp2.1/RationalNumbers.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/rational-numbers/obj/Debug/netcoreapp2.1/RationalNumbers.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/rational-numbers/obj/Debug/netcoreapp2.1/RationalNumbers.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/rational-numbers/obj/Debug/netcoreapp2.1/RationalNumbers.dll
+/Users/krossa/nauka/exercism/csharp/rational-numbers/obj/Debug/netcoreapp2.1/RationalNumbers.pdb

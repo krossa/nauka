@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/Allergies.deps.json
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/Allergies.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/Allergies.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/Allergies.dll
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/bin/Debug/netcoreapp2.1/Allergies.pdb
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/obj/Debug/netcoreapp2.1/Allergies.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/obj/Debug/netcoreapp2.1/Allergies.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/obj/Debug/netcoreapp2.1/Allergies.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/obj/Debug/netcoreapp2.1/Allergies.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/obj/Debug/netcoreapp2.1/Allergies.dll
+/Users/krossa/nauka/exercism/csharp/allergies-(enum-flag)/obj/Debug/netcoreapp2.1/Allergies.pdb

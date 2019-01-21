@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/Bob.deps.json
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/Bob.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/Bob.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/Bob.dll
+/Users/krossa/nauka/exercism/csharp/bob/bin/Debug/netcoreapp2.1/Bob.pdb
+/Users/krossa/nauka/exercism/csharp/bob/obj/Debug/netcoreapp2.1/Bob.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/bob/obj/Debug/netcoreapp2.1/Bob.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/bob/obj/Debug/netcoreapp2.1/Bob.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/bob/obj/Debug/netcoreapp2.1/Bob.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/bob/obj/Debug/netcoreapp2.1/Bob.dll
+/Users/krossa/nauka/exercism/csharp/bob/obj/Debug/netcoreapp2.1/Bob.pdb

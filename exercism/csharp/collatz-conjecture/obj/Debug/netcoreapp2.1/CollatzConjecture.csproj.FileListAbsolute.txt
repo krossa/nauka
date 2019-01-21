@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/CollatzConjecture.deps.json
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/CollatzConjecture.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/CollatzConjecture.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/CollatzConjecture.dll
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/bin/Debug/netcoreapp2.1/CollatzConjecture.pdb
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/obj/Debug/netcoreapp2.1/CollatzConjecture.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/obj/Debug/netcoreapp2.1/CollatzConjecture.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/obj/Debug/netcoreapp2.1/CollatzConjecture.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/obj/Debug/netcoreapp2.1/CollatzConjecture.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/obj/Debug/netcoreapp2.1/CollatzConjecture.dll
+/Users/krossa/nauka/exercism/csharp/collatz-conjecture/obj/Debug/netcoreapp2.1/CollatzConjecture.pdb

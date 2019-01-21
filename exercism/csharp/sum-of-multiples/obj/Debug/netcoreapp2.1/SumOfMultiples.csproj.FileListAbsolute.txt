@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/SumOfMultiples.deps.json
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/SumOfMultiples.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/SumOfMultiples.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/SumOfMultiples.dll
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/bin/Debug/netcoreapp2.1/SumOfMultiples.pdb
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/obj/Debug/netcoreapp2.1/SumOfMultiples.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/obj/Debug/netcoreapp2.1/SumOfMultiples.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/obj/Debug/netcoreapp2.1/SumOfMultiples.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/obj/Debug/netcoreapp2.1/SumOfMultiples.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/obj/Debug/netcoreapp2.1/SumOfMultiples.dll
+/Users/krossa/nauka/exercism/csharp/sum-of-multiples/obj/Debug/netcoreapp2.1/SumOfMultiples.pdb

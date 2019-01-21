@@ -1,0 +1,42 @@
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/KindergartenGarden.deps.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/KindergartenGarden.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/KindergartenGarden.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/KindergartenGarden.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/bin/Debug/netcoreapp2.1/KindergartenGarden.pdb
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/obj/Debug/netcoreapp2.1/KindergartenGarden.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/obj/Debug/netcoreapp2.1/KindergartenGarden.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/obj/Debug/netcoreapp2.1/KindergartenGarden.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/obj/Debug/netcoreapp2.1/KindergartenGarden.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/obj/Debug/netcoreapp2.1/KindergartenGarden.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden/obj/Debug/netcoreapp2.1/KindergartenGarden.pdb
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.deps.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.pdb
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden (enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.pdb
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.deps.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/bin/Debug/netcoreapp2.1/KindergartenGarden.pdb
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.dll
+/Users/krossa/nauka/exercism/csharp/kindergarten-garden-(enum)/obj/Debug/netcoreapp2.1/KindergartenGarden.pdb

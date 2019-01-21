@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/GradeSchool.deps.json
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/GradeSchool.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/GradeSchool.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/GradeSchool.dll
+/Users/krossa/nauka/exercism/csharp/grade-school/bin/Debug/netcoreapp2.1/GradeSchool.pdb
+/Users/krossa/nauka/exercism/csharp/grade-school/obj/Debug/netcoreapp2.1/GradeSchool.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/grade-school/obj/Debug/netcoreapp2.1/GradeSchool.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/grade-school/obj/Debug/netcoreapp2.1/GradeSchool.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/grade-school/obj/Debug/netcoreapp2.1/GradeSchool.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/grade-school/obj/Debug/netcoreapp2.1/GradeSchool.dll
+/Users/krossa/nauka/exercism/csharp/grade-school/obj/Debug/netcoreapp2.1/GradeSchool.pdb

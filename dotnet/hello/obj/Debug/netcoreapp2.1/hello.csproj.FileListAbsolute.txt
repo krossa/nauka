@@ -1,0 +1,11 @@
+/Users/krossa/nauka/dotnet/hello/bin/Debug/netcoreapp2.1/hello.deps.json
+/Users/krossa/nauka/dotnet/hello/bin/Debug/netcoreapp2.1/hello.runtimeconfig.json
+/Users/krossa/nauka/dotnet/hello/bin/Debug/netcoreapp2.1/hello.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/hello/bin/Debug/netcoreapp2.1/hello.dll
+/Users/krossa/nauka/dotnet/hello/bin/Debug/netcoreapp2.1/hello.pdb
+/Users/krossa/nauka/dotnet/hello/obj/Debug/netcoreapp2.1/hello.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/hello/obj/Debug/netcoreapp2.1/hello.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/dotnet/hello/obj/Debug/netcoreapp2.1/hello.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/hello/obj/Debug/netcoreapp2.1/hello.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/hello/obj/Debug/netcoreapp2.1/hello.dll
+/Users/krossa/nauka/dotnet/hello/obj/Debug/netcoreapp2.1/hello.pdb

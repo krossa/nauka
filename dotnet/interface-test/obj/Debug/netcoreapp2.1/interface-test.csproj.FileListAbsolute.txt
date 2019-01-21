@@ -1,0 +1,11 @@
+/Users/krossa/nauka/dotnet/interface-test/bin/Debug/netcoreapp2.1/interface-test.deps.json
+/Users/krossa/nauka/dotnet/interface-test/bin/Debug/netcoreapp2.1/interface-test.runtimeconfig.json
+/Users/krossa/nauka/dotnet/interface-test/bin/Debug/netcoreapp2.1/interface-test.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/interface-test/bin/Debug/netcoreapp2.1/interface-test.dll
+/Users/krossa/nauka/dotnet/interface-test/bin/Debug/netcoreapp2.1/interface-test.pdb
+/Users/krossa/nauka/dotnet/interface-test/obj/Debug/netcoreapp2.1/interface-test.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/interface-test/obj/Debug/netcoreapp2.1/interface-test.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/dotnet/interface-test/obj/Debug/netcoreapp2.1/interface-test.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/interface-test/obj/Debug/netcoreapp2.1/interface-test.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/interface-test/obj/Debug/netcoreapp2.1/interface-test.dll
+/Users/krossa/nauka/dotnet/interface-test/obj/Debug/netcoreapp2.1/interface-test.pdb

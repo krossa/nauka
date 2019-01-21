@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/TwoFer.deps.json
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/TwoFer.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/TwoFer.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/TwoFer.dll
+/Users/krossa/nauka/exercism/csharp/two-fer/bin/Debug/netcoreapp2.1/TwoFer.pdb
+/Users/krossa/nauka/exercism/csharp/two-fer/obj/Debug/netcoreapp2.1/TwoFer.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/two-fer/obj/Debug/netcoreapp2.1/TwoFer.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/two-fer/obj/Debug/netcoreapp2.1/TwoFer.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/two-fer/obj/Debug/netcoreapp2.1/TwoFer.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/two-fer/obj/Debug/netcoreapp2.1/TwoFer.dll
+/Users/krossa/nauka/exercism/csharp/two-fer/obj/Debug/netcoreapp2.1/TwoFer.pdb

@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/Markdown.deps.json
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/Markdown.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/Markdown.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/Markdown.dll
+/Users/krossa/nauka/exercism/csharp/markdown/bin/Debug/netcoreapp2.1/Markdown.pdb
+/Users/krossa/nauka/exercism/csharp/markdown/obj/Debug/netcoreapp2.1/Markdown.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/markdown/obj/Debug/netcoreapp2.1/Markdown.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/markdown/obj/Debug/netcoreapp2.1/Markdown.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/markdown/obj/Debug/netcoreapp2.1/Markdown.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/markdown/obj/Debug/netcoreapp2.1/Markdown.dll
+/Users/krossa/nauka/exercism/csharp/markdown/obj/Debug/netcoreapp2.1/Markdown.pdb

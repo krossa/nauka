@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.deps.json
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.dll
+/Users/krossa/nauka/exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.pdb
+/Users/krossa/nauka/exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.dll
+/Users/krossa/nauka/exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.pdb

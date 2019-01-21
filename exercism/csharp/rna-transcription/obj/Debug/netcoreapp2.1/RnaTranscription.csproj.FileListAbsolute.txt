@@ -1,0 +1,14 @@
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.deps.json
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.runtimeconfig.json
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.runtimeconfig.dev.json
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.dll
+/Users/krossa/nauka/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.pdb
+/Users/krossa/nauka/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.csprojAssemblyReference.cache
+/Users/krossa/nauka/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.AssemblyInfoInputs.cache
+/Users/krossa/nauka/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.AssemblyInfo.cs
+/Users/krossa/nauka/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.dll
+/Users/krossa/nauka/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.pdb
