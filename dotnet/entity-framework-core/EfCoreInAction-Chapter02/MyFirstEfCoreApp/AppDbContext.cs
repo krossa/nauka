@@ -8,17 +8,15 @@ namespace MyFirstEfCoreApp
     public class AppDbContext : DbContext
     {
         private const string ConnectionString =            //#A
-         @"User ID=krossa;Host=localhost;Database=MyFirstEfCoreDb;"; // postgre
-        // @"Server=localhost;Database=MyFirstEfCoreDb;User Id=sa;Password=!QAZ2wsx;"; //ms sql
-            // @"Server=(localdb)\mssqllocaldb;Database=MyFirstEfCoreDb;Trusted_Connection=True"; // local db
-
-// User ID=krossa;Host=localhost;Database=BookDB"));
+            // @"Server=(localdb)\mssqllocaldb;
+            //  Database=MyFirstEfCoreDb;
+            //  Trusted_Connection=True";
+            @"Server=localhost;Database=MyFirstEfCoreDb;User Id=sa;Password=!QAZ2wsx;";
 
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer(ConnectionString); //#B
-             optionsBuilder.UseNpgsql(ConnectionString); //#B
+            optionsBuilder.UseSqlServer(ConnectionString); //#B
         }
 
         public DbSet<Book> Books { get; set; }
