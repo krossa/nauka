@@ -1,4 +1,5 @@
 ﻿using ServiceStack;
+using System;
 
 namespace web.ServiceModel
 {
@@ -11,6 +12,7 @@ namespace web.ServiceModel
 
     public class HelloResponse
     {
+        public DateTime CurrentDate { get; set; }
         public string Result { get; set; }
     }
 }

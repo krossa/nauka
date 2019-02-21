@@ -44,6 +44,9 @@ namespace web
         {
             SetConfig(new HostConfig
             {
+                DefaultContentType = MimeTypes.Json,
+                // EnableFeatures = Feature.All.Remove(Feature.Html),
+
                 DefaultRedirectPath = "/metadata",
                 DebugMode = AppSettings.Get(nameof(HostConfig.DebugMode), false)
             });

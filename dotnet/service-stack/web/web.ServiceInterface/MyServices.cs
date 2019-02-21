@@ -6,9 +6,12 @@ namespace web.ServiceInterface
 {
     public class MyServices : Service
     {
-        public object Any(Hello request)
-        {
-            return new HelloResponse { Result = $"XXXXX, {request.Name}!" };
-        }
+        // [AddHeader(ContentType=MimeTypes.Json)]
+        public object Get(Hello request) =>
+            new HelloResponse { CurrentDate = DateTime.Today, Result = $"XXXXX, {request.Name}!" };
+
+
+        public object Get(World request) =>
+            new WorldResponse { Result = $"New World is: {request.NewWorld}" };
     }
 }

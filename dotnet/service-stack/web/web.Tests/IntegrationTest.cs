@@ -39,7 +39,7 @@ namespace web.Tests
 
             var response = client.Get(new Hello { Name = "World" });
 
-            Assert.That(response.Result, Is.EqualTo("Hello, World!"));
+            Assert.That(response.Result, Is.EqualTo("XXXXX, World!"));
         }
     }
 }
