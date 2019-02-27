@@ -8,8 +8,12 @@ namespace web.ServiceModel
 {
 
     [Route("/convert")]
-    public class ConverterRequest : IReturn<Stream>
+    [Route("/convert/{Name}")]
+    public class ConverterRequest : IReturn<FileStreamResult>
     {
+        public string Name { get; set; }
+        public string File { get; set; }
+        public bool IsGood { get; set; }
     }
 
     public class ConverterResponse
@@ -17,10 +21,12 @@ namespace web.ServiceModel
         public string Result { get; set; }
     }
 
-    public class FileStreamResult //: IHasOptions, IStreamWriter
+    public class FileStreamResult// : IHasOptions, IStreamWriter
     {
         private readonly Stream _responseStream;
         public IDictionary<string, string> Options { get; private set; }
+
+public Stream File { get{ return _responseStream;} }
 
         public FileStreamResult(Stream responseStream, string fileName)
         {

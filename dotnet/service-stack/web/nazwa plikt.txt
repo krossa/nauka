@@ -1,0 +1,6 @@
+
+/Users/krossa/nauka/dotnet/service-stack/web/web/tmp
+nazwa_secret
+nazwa plikt.txt
+True
+service stack

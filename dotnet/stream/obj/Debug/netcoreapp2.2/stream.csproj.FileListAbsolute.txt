@@ -1,0 +1,11 @@
+/Users/krossa/nauka/dotnet/stream/bin/Debug/netcoreapp2.2/stream.deps.json
+/Users/krossa/nauka/dotnet/stream/bin/Debug/netcoreapp2.2/stream.runtimeconfig.json
+/Users/krossa/nauka/dotnet/stream/bin/Debug/netcoreapp2.2/stream.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/stream/bin/Debug/netcoreapp2.2/stream.dll
+/Users/krossa/nauka/dotnet/stream/bin/Debug/netcoreapp2.2/stream.pdb
+/Users/krossa/nauka/dotnet/stream/obj/Debug/netcoreapp2.2/stream.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/stream/obj/Debug/netcoreapp2.2/stream.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/dotnet/stream/obj/Debug/netcoreapp2.2/stream.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/stream/obj/Debug/netcoreapp2.2/stream.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/stream/obj/Debug/netcoreapp2.2/stream.dll
+/Users/krossa/nauka/dotnet/stream/obj/Debug/netcoreapp2.2/stream.pdb
