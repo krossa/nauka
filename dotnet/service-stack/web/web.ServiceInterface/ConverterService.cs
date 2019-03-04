@@ -2,20 +2,30 @@ using System;
 using System.IO;
 using ServiceStack;
 using web.ServiceModel;
+using Microsoft.AspNetCore;
 
 namespace web.ServiceInterface
 {
     public class ConverterService : Service
     {
+        private readonly ITestService _testService;
+        private readonly IZipUtils _zipUtils;
+
+        public ConverterService(ITestService testService)
+        {
+            _testService = testService;
+            // _zipUtils = zipUtils;
+        }
 
         // [AddHeader(ContentType=MimeTypes.Json)]
         public Stream Post(ConverterRequest request)
         {
             base.Response.AddHeader("Content-Disposition", $"attachment; filename=\"{request.File}\";");
-            using(var zipUtils = new ZipUtils())
+            using (var zipUtils = new ZipUtils())
             {
-                zipUtils.UnzipInput(Request.InputStream);
+                zipUtils.UnzipInput(_testService.GetStream(Request));
                 zipUtils.ZipOutput();
+                var w = _testService.Add(2, 3);
                 return zipUtils.GetResult();
             }
         }
