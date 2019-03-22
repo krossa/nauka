@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="ServiceStack" Version="5.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QI.OneGate.FileAnonymizer.WebService.ServiceInterface\QI.OneGate.FileAnonymizer.WebService.ServiceInterface.csproj" />
+    <ProjectReference Include="..\QI.OneGate.FileAnonymizer.WebService.ServiceModel\QI.OneGate.FileAnonymizer.WebService.ServiceModel.csproj" />
+  </ItemGroup>
+
+</Project>
