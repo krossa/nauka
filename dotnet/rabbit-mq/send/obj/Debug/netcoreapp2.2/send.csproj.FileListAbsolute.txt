@@ -1,0 +1,11 @@
+/Users/krossa/nauka/dotnet/rabbit-mq/send/bin/Debug/netcoreapp2.2/send.deps.json
+/Users/krossa/nauka/dotnet/rabbit-mq/send/bin/Debug/netcoreapp2.2/send.runtimeconfig.json
+/Users/krossa/nauka/dotnet/rabbit-mq/send/bin/Debug/netcoreapp2.2/send.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/rabbit-mq/send/bin/Debug/netcoreapp2.2/send.dll
+/Users/krossa/nauka/dotnet/rabbit-mq/send/bin/Debug/netcoreapp2.2/send.pdb
+/Users/krossa/nauka/dotnet/rabbit-mq/send/obj/Debug/netcoreapp2.2/send.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/rabbit-mq/send/obj/Debug/netcoreapp2.2/send.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/dotnet/rabbit-mq/send/obj/Debug/netcoreapp2.2/send.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/rabbit-mq/send/obj/Debug/netcoreapp2.2/send.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/rabbit-mq/send/obj/Debug/netcoreapp2.2/send.dll
+/Users/krossa/nauka/dotnet/rabbit-mq/send/obj/Debug/netcoreapp2.2/send.pdb

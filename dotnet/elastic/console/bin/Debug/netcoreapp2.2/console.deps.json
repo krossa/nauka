@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "b95fcb7a5807aaa60d348393d754d7279e4c3a4f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "console/1.0.0": {
+        "dependencies": {
+          "NEST": "6.6.0"
+        },
+        "runtime": {
+          "console.dll": {}
+        }
+      },
+      "Elasticsearch.Net/6.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/Elasticsearch.Net.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.6.0.0"
+          }
+        }
+      },
+      "NEST/6.6.0": {
+        "dependencies": {
+          "Elasticsearch.Net": "6.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elasticsearch.Net/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BNn2/k+p1kXMegib9ECXmg321bL5pdIBArO2lPT4OKGEjBCslvhbZ1W1JylRCXn35YEtOQOkGgfKWm7tIiTV5A==",
+      "path": "elasticsearch.net/6.6.0",
+      "hashPath": "elasticsearch.net.6.6.0.nupkg.sha512"
+    },
+    "NEST/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RkYUFMbTb+D8sE7eR+LJO1DoyXF3enZBwqibX5CfeVuzhUvTX2eQy19UqR7wZplxQjixp6pQ4c1gR0I5ii3k7g==",
+      "path": "nest/6.6.0",
+      "hashPath": "nest.6.6.0.nupkg.sha512"
+    }
+  }
+}

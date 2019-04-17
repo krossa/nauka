@@ -1,0 +1,11 @@
+/Users/krossa/nauka/dotnet/elastic/console/bin/Debug/netcoreapp2.2/console.deps.json
+/Users/krossa/nauka/dotnet/elastic/console/bin/Debug/netcoreapp2.2/console.runtimeconfig.json
+/Users/krossa/nauka/dotnet/elastic/console/bin/Debug/netcoreapp2.2/console.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/elastic/console/bin/Debug/netcoreapp2.2/console.dll
+/Users/krossa/nauka/dotnet/elastic/console/bin/Debug/netcoreapp2.2/console.pdb
+/Users/krossa/nauka/dotnet/elastic/console/obj/Debug/netcoreapp2.2/console.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/elastic/console/obj/Debug/netcoreapp2.2/console.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/dotnet/elastic/console/obj/Debug/netcoreapp2.2/console.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/elastic/console/obj/Debug/netcoreapp2.2/console.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/elastic/console/obj/Debug/netcoreapp2.2/console.dll
+/Users/krossa/nauka/dotnet/elastic/console/obj/Debug/netcoreapp2.2/console.pdb
