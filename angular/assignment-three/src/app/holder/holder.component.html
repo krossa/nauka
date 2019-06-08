@@ -1,0 +1,8 @@
+<div class="d-flex">
+  <button class="btn btn-primary" (click)="onDisplay()">Display Details</button>
+  <p *ngIf="visible">My Content</p>
+</div>
+<div *ngFor="let item of clicks; let i = index" [ngClass]="{'multi-item': isMultiItem(i + 1)}"
+  [ngStyle]="{backgroundColor: getBackground(i + 1)}">
+  {{ item }}
+</div>

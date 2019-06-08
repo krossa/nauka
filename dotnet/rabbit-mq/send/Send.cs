@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 using System.Text;
 using RabbitMQ.Client;
 
@@ -10,7 +11,12 @@ namespace send
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost"
+                // UserName = "guest",
+                // Password = "guest",
+                // HostName = "127.0.0.1",
+                // Port = 5672
+
+                Uri = new Uri($"amqp://guest:guest@localhost:5672"),
             };
 
             using (var connection = factory.CreateConnection())
@@ -23,7 +29,7 @@ namespace send
                                                      autoDelete: false,
                                                      arguments: null);
 
-                    string message = args[0] ?? "Hello World!";
+                    var message = args.Length > 0 ? args[0] : "Hello World!";
                     var body = Encoding.UTF8.GetBytes(message);
 
                     channel.BasicPublish(exchange: "",
