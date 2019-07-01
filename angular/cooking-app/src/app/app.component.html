@@ -1,9 +1,11 @@
-<app-header></app-header>
+<app-header (componentSelected)="onNavigate($event)"></app-header>
+<div class="" style="height: 20px;">
+</div>
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
-      <h2>I'm working</h2>
-      <button type="button" class="btn btn-primary">Primary</button>
+    <div class="col-md-12">
+      <app-recipes *ngIf="loadedComponent === 'recipes'"></app-recipes>
+      <app-shopping-list *ngIf="loadedComponent === 'shoping-list'"></app-shopping-list>
     </div>
   </div>
 </div>
