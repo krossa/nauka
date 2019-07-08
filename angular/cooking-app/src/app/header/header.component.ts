@@ -16,4 +16,8 @@ export class HeaderComponent implements OnInit {
         this.component = component;
         this.componentSelected.emit(component);
     }
+
+    click() {
+        console.log('sdf');
+    }
 }
