@@ -1,4 +1,5 @@
-<a (click)="onRecipeSelect()" href="#" class="list-group-item list-group-item-action d-flex">
+<a routerLinkActive="active" [routerLink]="['/recipes', recipe.id]" style="cursor: pointer"
+  class="list-group-item list-group-item-action d-flex">
   <div class="mr-auto p-2">
     <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
     <p class="list-group-item-text">{{ recipe.description }}</p>
