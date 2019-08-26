@@ -10,7 +10,7 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 
 const appRoutes: Routes = [
-    { path: '', component: HomeComponent },
+    { path: '', redirectTo: 'recipes', pathMatch: 'full' },
     {
         path: 'recipes', component: RecipesComponent, children: [
             { path: '', component: EmptyRecipeComponent },
@@ -23,23 +23,6 @@ const appRoutes: Routes = [
     { path: 'shopping-list', component: ShoppingListComponent },
     { path: '**', component: PageNotFoundComponent }
 ];
-// const appRoutes: Routes = [
-//     { path: '', component: HomeComponent },
-//     {
-//         path: 'servers', canActivateChild: [AuthGuard], component: ServersComponent, children: [
-//             { path: ':id', component: ServerComponent, resolve: { myserver: ServerResolver } },
-//             { path: ':id/edit', component: EditServerComponent, canDeactivate: [CanDeactivateGuard] }
-//         ]
-//     },
-//     {
-//         path: 'users', component: UsersComponent, children: [
-//             { path: ':id/:name', component: UserComponent }
-//         ]
-//     },
-//     // { path: 'not-found', component: PageNotFoundComponent },
-//     { path: 'not-found', component: ErrorPageComponent, data: { message: 'Page not found!xxxx' } },
-//     { path: '**', redirectTo: '/not-found', pathMatch: 'full' }
-// ];
 
 @NgModule({
     imports: [
