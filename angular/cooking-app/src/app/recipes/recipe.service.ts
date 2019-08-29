@@ -2,12 +2,13 @@ import { Recipe } from './recipe.model';
 import { EventEmitter, Injectable } from '@angular/core';
 import { Ingredient } from '../shared/ingredient.model';
 import { ShoppingListService } from '../shopping-list/shopping-list.service';
+import { Subject } from 'rxjs';
 
 @Injectable()
 export class RecipeService {
+    recipesChanged = new Subject<Recipe[]>();
     private recipes: Recipe[] = [
         new Recipe(
-            1,
             'A test recipe name',
             'test description',
             // tslint:disable-next-line: max-line-length
@@ -17,7 +18,6 @@ export class RecipeService {
                 new Ingredient('Lemon', 3)
             ]),
         new Recipe(
-            2,
             'Chicken Curry',
             `Making Indian at home doesnt have to be intimidating.
              This recipe comes together in under an hour! We suggest pairing it with rice or naan.`,
@@ -33,7 +33,7 @@ export class RecipeService {
     constructor(private slService: ShoppingListService) { }
 
     getRecipe(id: number) {
-        return this.recipes.find(r => r.id === id);
+        return this.recipes[id];
     }
 
     getRecipes() {
@@ -42,5 +42,24 @@ export class RecipeService {
 
     addIngredientsToShoppingList(ingredients: Ingredient[]) {
         this.slService.addIngredients(ingredients);
+    }
+
+    addRecipe(recipe: Recipe) {
+        this.recipes.push(recipe);
+        this.recipesChangedEmmit();
+    }
+
+    updateRecipe(index: number, recipe: Recipe) {
+        this.recipes[index] = recipe;
+        this.recipesChangedEmmit();
+    }
+
+    deleteRecipe(index: number) {
+        this.recipes.splice(index, 1);
+        this.recipesChangedEmmit();
+    }
+
+    private recipesChangedEmmit() {
+        this.recipesChanged.next(this.recipes.slice());
     }
 }
