@@ -15,11 +15,11 @@
             <li appDropdown class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                     style="cursor: pointer" aria-haspopup="true" aria-expanded="true">
-                    Dropdown
+                    Menu
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" style="cursor: pointer">Save Data</a>
-                    <a class="dropdown-item" style="cursor: pointer">Fetch Data</a>
+                    <a class="dropdown-item" (click)="onSaveData()" style="cursor: pointer">Save Data</a>
+                    <a class="dropdown-item" (click)="onGetData()" style="cursor: pointer">Fetch Data</a>
                 </div>
             </li>
         </ul>

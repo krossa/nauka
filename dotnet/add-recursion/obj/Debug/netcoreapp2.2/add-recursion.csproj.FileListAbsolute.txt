@@ -1,0 +1,11 @@
+/Users/krossa/nauka/dotnet/add-recursion/obj/Debug/netcoreapp2.2/add-recursion.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/add-recursion/obj/Debug/netcoreapp2.2/add-recursion.csproj.CoreCompileInputs.cache
+/Users/krossa/nauka/dotnet/add-recursion/obj/Debug/netcoreapp2.2/add-recursion.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/add-recursion/obj/Debug/netcoreapp2.2/add-recursion.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/add-recursion/bin/Debug/netcoreapp2.2/add-recursion.deps.json
+/Users/krossa/nauka/dotnet/add-recursion/bin/Debug/netcoreapp2.2/add-recursion.runtimeconfig.json
+/Users/krossa/nauka/dotnet/add-recursion/bin/Debug/netcoreapp2.2/add-recursion.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/add-recursion/bin/Debug/netcoreapp2.2/add-recursion.dll
+/Users/krossa/nauka/dotnet/add-recursion/bin/Debug/netcoreapp2.2/add-recursion.pdb
+/Users/krossa/nauka/dotnet/add-recursion/obj/Debug/netcoreapp2.2/add-recursion.dll
+/Users/krossa/nauka/dotnet/add-recursion/obj/Debug/netcoreapp2.2/add-recursion.pdb
