@@ -1,48 +1,21 @@
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { NgModule } from '@angular/core';
 
-import { HomeComponent } from './home/home.component';
-import { RecipesComponent } from './recipes/recipes.component';
-import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { EmptyRecipeComponent } from './recipes/empty-recipe/empty-recipe.component';
-import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
-import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
-import { RecipesResolverService } from './recipes/recipes-resolver.service';
 import { AuthComponent } from './auth/auth.component';
-import { AuthGuard } from './auth/auth.guard';
 
 const appRoutes: Routes = [
     { path: '', redirectTo: 'recipes', pathMatch: 'full' },
-    {
-        path: 'recipes',
-        canActivate: [AuthGuard],
-        component: RecipesComponent,
-        children: [
-            { path: '', component: EmptyRecipeComponent },
-            {
-                path: ':id',
-                component: RecipeDetailComponent,
-                resolve: [RecipesResolverService]
-            },
-            {
-                path: ':id/edit',
-                component: RecipeEditComponent,
-                resolve: [RecipesResolverService]
-            },
-            { path: 'new', component: RecipeEditComponent }
-
-        ]
-    },
-    { path: 'shopping-list', component: ShoppingListComponent },
-    { path: 'auth', component: AuthComponent },
+    { path: 'auth', loadChildren: './auth/auth.module#AuthModule' },
+    { path: 'recipes', loadChildren: './recipes/recipes.module#RecipesModule' },
+    { path: 'shopping-list', loadChildren: './shopping-list/shopping-list.module#ShoppingListModule' },
     { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({
     imports: [
         // RouterModule.forRoot(appRoutes, { useHash: true })
-        RouterModule.forRoot(appRoutes)
+        RouterModule.forRoot(appRoutes, { preloadingStrategy: PreloadAllModules })
     ],
     exports: [RouterModule]
 })
