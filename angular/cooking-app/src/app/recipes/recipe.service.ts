@@ -1,71 +1,53 @@
-import { Recipe } from './recipe.model';
+import { Store } from '@ngrx/store';
 import { EventEmitter, Injectable } from '@angular/core';
-import { Ingredient } from '../shared/ingredient.model';
-import { ShoppingListService } from '../shopping-list/shopping-list.service';
 import { Subject } from 'rxjs';
+
+import { Recipe } from './recipe.model';
+import { Ingredient } from '../shared/ingredient.model';
+import * as ShoppingListActions from '../shopping-list/store/shopping-list.actions';
+import * as fromShoppingList from '../shopping-list/store/shopping-list.reducer';
+
 
 @Injectable()
 export class RecipeService {
-    recipesChanged = new Subject<Recipe[]>();
-    private recipes: Recipe[] = [];
-    // private recipes: Recipe[] = [
-    //     new Recipe(
-    //         'A test recipe name',
-    //         'test description',
-    //         // tslint:disable-next-line: max-line-length
-    //         `https://hips.hearstapps.com/del.h-cdn.co/assets/18/11/2048x1024/landscape-1520957481-grilled-salmon-horizontal.jpg?resize=1200:*`,
-    //         [
-    //             new Ingredient('Salmon', 1),
-    //             new Ingredient('Lemon', 3)
-    //         ]),
-    //     new Recipe(
-    //         'Chicken Curry',
-    //         `Making Indian at home doesnt have to be intimidating.
-    //          This recipe comes together in under an hour! We suggest pairing it with rice or naan.`,
-    //         // tslint:disable-next-line: max-line-length
-    //         `https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/1501791674-delish-chicken-curry-horizontal.jpg?crop=1xw:1xh;center,top&resize=768:*`,
-    //         [
-    //             new Ingredient('Chicken', 1),
-    //             new Ingredient('Rice', 50),
-    //             new Ingredient('Curry', 1)
-    //         ])
-    // ];
+  recipesChanged = new Subject<Recipe[]>();
+  private recipes: Recipe[] = [];
 
-    constructor(private slService: ShoppingListService) { }
+  constructor(private store: Store<fromShoppingList.AppState>) { }
 
-    setRecipes(recipes: Recipe[]) {
-        this.recipes = recipes;
-        this.recipesChangedEmmit();
-    }
+  setRecipes(recipes: Recipe[]) {
+    this.recipes = recipes;
+    this.recipesChangedEmmit();
+  }
 
-    getRecipe(id: number) {
-        return this.recipes[id];
-    }
+  getRecipe(id: number) {
+    return this.recipes[id];
+  }
 
-    getRecipes() {
-        return this.recipes.slice();
-    }
+  getRecipes() {
+    return this.recipes.slice();
+  }
 
-    addIngredientsToShoppingList(ingredients: Ingredient[]) {
-        this.slService.addIngredients(ingredients);
-    }
+  addIngredientsToShoppingList(ingredients: Ingredient[]) {
+    this.store.dispatch(new ShoppingListActions.AddIngredients(ingredients));
+  }
 
-    addRecipe(recipe: Recipe) {
-        this.recipes.push(recipe);
-        this.recipesChangedEmmit();
-    }
+  addRecipe(recipe: Recipe) {
+    this.recipes.push(recipe);
+    this.recipesChangedEmmit();
+  }
 
-    updateRecipe(index: number, recipe: Recipe) {
-        this.recipes[index] = recipe;
-        this.recipesChangedEmmit();
-    }
+  updateRecipe(index: number, recipe: Recipe) {
+    this.recipes[index] = recipe;
+    this.recipesChangedEmmit();
+  }
 
-    deleteRecipe(index: number) {
-        this.recipes.splice(index, 1);
-        this.recipesChangedEmmit();
-    }
+  deleteRecipe(index: number) {
+    this.recipes.splice(index, 1);
+    this.recipesChangedEmmit();
+  }
 
-    private recipesChangedEmmit() {
-        this.recipesChanged.next(this.recipes.slice());
-    }
+  private recipesChangedEmmit() {
+    this.recipesChanged.next(this.recipes.slice());
+  }
 }
