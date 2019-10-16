@@ -1,0 +1,11 @@
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/async3.0
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/async3.0.deps.json
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/async3.0.runtimeconfig.json
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/async3.0.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/async3.0.dll
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/async3.0.pdb
+/Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.dll
+/Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.pdb

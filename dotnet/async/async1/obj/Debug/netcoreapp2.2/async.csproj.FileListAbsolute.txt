@@ -9,3 +9,13 @@
 /Users/krossa/nauka/dotnet/async/obj/Debug/netcoreapp2.2/async.AssemblyInfo.cs
 /Users/krossa/nauka/dotnet/async/obj/Debug/netcoreapp2.2/async.dll
 /Users/krossa/nauka/dotnet/async/obj/Debug/netcoreapp2.2/async.pdb
+/Users/krossa/nauka/dotnet/async/async1/bin/Debug/netcoreapp2.2/async.deps.json
+/Users/krossa/nauka/dotnet/async/async1/bin/Debug/netcoreapp2.2/async.runtimeconfig.json
+/Users/krossa/nauka/dotnet/async/async1/bin/Debug/netcoreapp2.2/async.runtimeconfig.dev.json
+/Users/krossa/nauka/dotnet/async/async1/bin/Debug/netcoreapp2.2/async.dll
+/Users/krossa/nauka/dotnet/async/async1/bin/Debug/netcoreapp2.2/async.pdb
+/Users/krossa/nauka/dotnet/async/async1/obj/Debug/netcoreapp2.2/async.csprojAssemblyReference.cache
+/Users/krossa/nauka/dotnet/async/async1/obj/Debug/netcoreapp2.2/async.AssemblyInfoInputs.cache
+/Users/krossa/nauka/dotnet/async/async1/obj/Debug/netcoreapp2.2/async.AssemblyInfo.cs
+/Users/krossa/nauka/dotnet/async/async1/obj/Debug/netcoreapp2.2/async.dll
+/Users/krossa/nauka/dotnet/async/async1/obj/Debug/netcoreapp2.2/async.pdb

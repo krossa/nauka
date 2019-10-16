@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/krossa/nauka/dotnet/async/async.csproj",
+      "projectUniqueName": "/Users/krossa/nauka/dotnet/async/async1/async.csproj",
       "projectName": "async",
-      "projectPath": "/Users/krossa/nauka/dotnet/async/async.csproj",
+      "projectPath": "/Users/krossa/nauka/dotnet/async/async1/async.csproj",
       "packagesPath": "/Users/krossa/.nuget/packages/",
-      "outputPath": "/Users/krossa/nauka/dotnet/async/obj/",
+      "outputPath": "/Users/krossa/nauka/dotnet/async/async1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -732,10 +732,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

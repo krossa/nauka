@@ -58,7 +58,7 @@ export function shoppingListReducer(
         editedIngredientId: -1,
         editedIngredient: null
       };
-    case ShoppingListActions.START_EDIT:
+          case ShoppingListActions.START_EDIT:
       return {
         ...state,
         editedIngredientId: action.payload,
