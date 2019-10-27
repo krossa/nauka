@@ -3,7 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>async3._0</RootNamespace>
+    <RootNamespace>async3</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AsyncEnumerator" Version="3.1.0" />
+    <PackageReference Include="Polly" Version="7.1.1" />
+  </ItemGroup>
 
 </Project>

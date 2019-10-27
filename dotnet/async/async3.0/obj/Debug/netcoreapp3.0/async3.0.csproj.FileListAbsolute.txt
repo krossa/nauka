@@ -9,3 +9,6 @@
 /Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.AssemblyInfo.cs
 /Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.dll
 /Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.pdb
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/AsyncEnumerable.dll
+/Users/krossa/nauka/dotnet/async/async3.0/bin/Debug/netcoreapp3.0/Polly.dll
+/Users/krossa/nauka/dotnet/async/async3.0/obj/Debug/netcoreapp3.0/async3.0.csproj.CopyComplete
