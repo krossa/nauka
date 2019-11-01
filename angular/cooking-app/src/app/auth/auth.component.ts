@@ -25,6 +25,10 @@ export class AuthComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.store.select('auth').subscribe(authState => {
+      this.isLoading = authState.loading;
+      this.error = authState.authError;
+     });
   }
 
   onSwithMode() {
@@ -38,28 +42,12 @@ export class AuthComponent implements OnInit {
     this.error = null;
     const email = form.value.email;
     const password = form.value.password;
-    let authObj: Observable<AuthResponseData>;
-
-    this.isLoading = true;
 
     if (this.isLoginMode) {
-      // authObj = this.authService.login(email, password);
       this.store.dispatch(new AuthActions.LoginStart({ email, password }));
     } else {
-      authObj = this.authService.signup(email, password);
+      this.store.dispatch(new AuthActions.SignupStart({ email, password }));
     }
-
-    authObj.subscribe(
-      resData => {
-        console.log(resData);
-        this.isLoading = false;
-        this.router.navigate(['/recipes']);
-      },
-      errorMessage => {
-        console.log(errorMessage);
-        this.error = errorMessage;
-        this.isLoading = false;
-      });
 
     form.reset();
   }
