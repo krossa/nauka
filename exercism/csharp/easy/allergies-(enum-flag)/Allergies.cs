@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 [Flags]
 public enum Allergen
@@ -29,27 +30,13 @@ public class Allergies
 
     public Allergen[] List()
     {
-        if(allergen == 0)
-            return new Allergen[]{};
+        if (allergen == 0)
+            return new Allergen[] { };
 
-        var list = new System.Collections.Generic.List<Allergen>();
+        var list = new List<Allergen>();
 
-        if((allergen & Allergen.Eggs) == Allergen.Eggs)
-            list.Add(Allergen.Eggs);
-        if((allergen & Allergen.Peanuts) == Allergen.Peanuts)
-            list.Add(Allergen.Peanuts);
-        if((allergen & Allergen.Shellfish) == Allergen.Shellfish)
-            list.Add(Allergen.Shellfish);
-        if((allergen & Allergen.Strawberries) == Allergen.Strawberries)
-            list.Add(Allergen.Strawberries);
-        if((allergen & Allergen.Tomatoes) == Allergen.Tomatoes)
-            list.Add(Allergen.Tomatoes);
-        if((allergen & Allergen.Chocolate) == Allergen.Chocolate)
-            list.Add(Allergen.Chocolate);
-        if((allergen & Allergen.Pollen) == Allergen.Pollen)
-            list.Add(Allergen.Pollen);
-        if((allergen & Allergen.Cats) == Allergen.Cats)
-            list.Add(Allergen.Cats);
+        foreach (Allergen item in Enum.GetValues(typeof(Allergen)))
+            if ((allergen & item) == item) list.Add(item);
 
         return list.ToArray();
     }
