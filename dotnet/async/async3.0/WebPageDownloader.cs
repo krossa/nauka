@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Polly;
 
+// https://markheath.net/post/constraining-concurrent-threads-csharp
 public class WebPageDownloader
 {
     private readonly string[] urls = new[]
@@ -14,14 +15,14 @@ public class WebPageDownloader
         "https://twitter.com/mark_heath",
         "https://github.com/markheath/azure-functions-links",
         "https://pluralsight.com/authors/mark-heath",
-        // "https://github.com/markheath/advent-of-code-js",
-        // "http://stackoverflow.com/users/7532/mark-heath",
-        // "https://mvp.microsoft.com/en-us/mvp/Mark%20%20Heath-5002551",
-        // "https://github.com/markheath/func-todo-backend",
-        // "https://github.com/markheath/typescript-tetris",
-        // "https://github.com/naudio/NAudio",
-        // "https://twitter.com/mark_heath",
-        // "https://github.com/markheath/azure-functions-links",
+        "https://github.com/markheath/advent-of-code-js",
+        "http://stackoverflow.com/users/7532/mark-heath",
+        "https://mvp.microsoft.com/en-us/mvp/Mark%20%20Heath-5002551",
+        "https://github.com/markheath/func-todo-backend",
+        "https://github.com/markheath/typescript-tetris",
+        "https://github.com/naudio/NAudio",
+        "https://twitter.com/mark_heath",
+        "https://github.com/markheath/azure-functions-links",
         "https://pluralsight.com/authors/mark-heath",
         "https://github.com/markheath/advent-of-code-js",
         "http://stackoverflow.com/users/7532/mark-heath",
@@ -60,6 +61,7 @@ public class WebPageDownloader
                 }
             }));
         }
+        // Thread.Sleep(2000);
         async3.Program.PrintInfo("MAIN");
         await Task.WhenAll(tasks);
         async3.Program.PrintInfo("MAIN");

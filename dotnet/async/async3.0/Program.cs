@@ -16,8 +16,8 @@ namespace async3
             // await new WebPageDownloader().GetSequentailAsync();
             // await new WebPageDownloader().GetConcurrentQueueAsync();
             // await new WebPageDownloader().SemaphoreSlim();
-            // await new WebPageDownloader().ParallelForEach();
-            await new WebPageDownloader().PollyBulkheadAsync();
+            new WebPageDownloader().ParallelForEach();
+            // await new WebPageDownloader().PollyBulkheadAsync();
             // Console.ReadKey();
         }
 
