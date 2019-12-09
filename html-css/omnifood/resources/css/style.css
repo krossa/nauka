@@ -235,6 +235,7 @@ header {
   text-transform: uppercase;
   font-size: 90%;
   padding: 8px;
+  border-bottom: 2px solid transparent;
   transition: border-bottom 0.2s;
 }
 
