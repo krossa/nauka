@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Breakfast Menu</title>
+  </head>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+
+    th, td {
+      padding: 6px;
+    }
+ 
+    tr[data-gluten-free="true"] td:first-child:after {
+        color: green;
+        content: " (gluten free)";
+      }
+  </style>
+  <body>
+    <table>
+      <caption>Breakfast Menu</caption>
+      <thead>
+        <th>Item</th>
+        <th>Price</th>
+      </thead>
+      <tbody>
+        <tr data-gluten-free="false">
+          <td>Lumberjack w/ Eggs</td>
+          <td>$6.99</td>
+        </tr>
+        <tr data-gluten-free="false">
+          <td>Waffle Wafers</td>
+          <td>$8.99</td>
+        </tr>
+        <tr data-gluten-free="true">
+          <td>Skinny Salad</td>
+          <td>$5.99</td>
+        </tr>
+        <tr data-gluten-free="true">
+          <td>Savory Oatmeal</td>
+          <td>$7.99</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
