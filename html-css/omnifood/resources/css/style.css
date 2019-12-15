@@ -12,6 +12,10 @@ Orange color #e67e22
   box-sizing: border-box;
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 html,
 body {
   background-color: #fff;
@@ -261,6 +265,18 @@ header {
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
 }
+/* mobile navi */
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #fff;
+}
 
 /* Sticky navi */
 .sticky {
@@ -298,8 +314,8 @@ header {
 
 .sticky .logo-black {
   display: block;
-} 
- 
+}
+
 .sticky .logo {
   display: none;
 }
@@ -626,4 +642,25 @@ footer p {
   color: #888;
   text-align: center;
   margin-top: 20px;
+}
+
+/*-----------------------------------------------------------------*/
+/* ANIMATIONS */
+/*-----------------------------------------------------------------*/
+
+.js--waypoint-1,
+.js--waypoint-2,
+.js--waypoint-3 {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js--waypoint-4 {
+  animation-duration: 1s;
+}
+
+.js--waypoint-1 .animated,
+.js--waypoint-2 .animated,
+.js--waypoint-3 .animated {
+  opacity: 1;
 }
