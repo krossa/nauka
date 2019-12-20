@@ -29,7 +29,7 @@ function animationOnScroll() {
   });
 
   $('.js--waypoint-4').waypoint(function(direction) {
-    $('.js--waypoint-4').addClass('animated pulse');
+    $('.js--waypoint-4').addClass('animated rubberBand');
   },
   {
     offset: '50%'
