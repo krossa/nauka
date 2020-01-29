@@ -13,6 +13,7 @@ public class HomeController : ControllerBase
     {
         const int Delay = 2000;
 
+        //ab -n 100 -c 100 -k "http://localhost:5000/hello"
         [HttpGet("/hello")]
         public string Hello()
         {
@@ -20,6 +21,7 @@ public class HomeController : ControllerBase
             return "Hello";
         }
 
+        //ab -n 100 -c 100 -k "http://localhost:5000/hello-sync-over-async"
         [HttpGet("/hello-sync-over-async")]
         public string HelloSyncOverAsync()
         {
@@ -27,6 +29,7 @@ public class HomeController : ControllerBase
             return "Hello";
         }
 
+        //ab -n 100 -c 100 -k "http://localhost:5000/hello-async-over-sync"
         [HttpGet("/hello-async-over-sync")]
         public async Task<string> HelloAsyncOverSync()
         {
@@ -34,6 +37,7 @@ public class HomeController : ControllerBase
             return "Hello";
         }
 
+        //ab -n 100 -c 100 -k "http://localhost:5000/hello-async"
         [HttpGet("/hello-async")]
         public async Task<string> HelloAsync()
         {
