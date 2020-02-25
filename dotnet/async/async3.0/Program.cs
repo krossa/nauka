@@ -11,14 +11,14 @@ namespace async3
 
         async static Task Main(string[] args)
         {
-            // await ScenerioOne();
+            await ScenerioOne();
             // await ScenerioTwo();
             // await new WebPageDownloader().GetSequentailAsync();
             // await new WebPageDownloader().GetConcurrentQueueAsync();
             // await new WebPageDownloader().SemaphoreSlim();
             // new WebPageDownloader().ParallelForEach();
             // await new WebPageDownloader().PollyBulkheadAsync();
-            await new AsyncEnum().Run();
+            // await new AsyncEnum().Run();
             // Console.ReadKey();
         }
 
@@ -26,6 +26,8 @@ namespace async3
 
         private static async Task ScenerioOne()
         {
+            // PrintInfo("0");
+            // await OneAsync();
             PrintInfo("1");
             await OneAsync().ConfigureAwait(true);
             Loop("MAIN", ConsoleColor.Green);
@@ -85,7 +87,7 @@ namespace async3
 
         public static void PrintInfo(string id)
         {
-            Console.WriteLine($"PROCESS({id}) id: {Thread.GetCurrentProcessorId()}");
+            // Console.WriteLine($"PROCESS({id}) id: {Thread.GetCurrentProcessorId()}");
             Console.WriteLine($"THREAD({id}) id: {Thread.CurrentThread.ManagedThreadId}");
             // Console.WriteLine($"CONTEXT({id}) id: {SynchronizationContext.Current}");
         }
