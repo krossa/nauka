@@ -12,12 +12,13 @@ namespace async3
         async static Task Main(string[] args)
         {
             // await ScenerioOne();
-            await ScenerioTwo();
+            // await ScenerioTwo();
             // await new WebPageDownloader().GetSequentailAsync();
             // await new WebPageDownloader().GetConcurrentQueueAsync();
             // await new WebPageDownloader().SemaphoreSlim();
             // new WebPageDownloader().ParallelForEach();
             // await new WebPageDownloader().PollyBulkheadAsync();
+            await new AsyncEnum().Run();
             // Console.ReadKey();
         }
 
