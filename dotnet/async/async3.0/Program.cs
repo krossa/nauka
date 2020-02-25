@@ -11,7 +11,7 @@ namespace async3
 
         async static Task Main(string[] args)
         {
-            await ScenerioOne();
+            // await ScenerioOne();
             // await ScenerioTwo();
             // await new WebPageDownloader().GetSequentailAsync();
             // await new WebPageDownloader().GetConcurrentQueueAsync();
@@ -19,6 +19,7 @@ namespace async3
             // new WebPageDownloader().ParallelForEach();
             // await new WebPageDownloader().PollyBulkheadAsync();
             // await new AsyncEnum().Run();
+            await new ExceptionExample().Run();
             // Console.ReadKey();
         }
 
@@ -84,6 +85,8 @@ namespace async3
         #region SCENERIO THREE
 
         #endregion
+
+
 
         public static void PrintInfo(string id)
         {
