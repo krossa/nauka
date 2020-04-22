@@ -19,31 +19,31 @@ namespace patterns.Services
             return car;
         }
 
-        ICarBuilder ICarBuilder.WithColor(string color)
+        public ICarBuilder WithColor(string color)
         {
             car.Color = color;
             return this;
         }
 
-        ICarBuilder ICarBuilder.WithMileage(int mileage)
+        public ICarBuilder WithMileage(int mileage)
         {
             car.Mileage = mileage;
             return this;
         }
 
-        ICarBuilder ICarBuilder.WithTrim(string trim)
+        public ICarBuilder WithTrim(string trim)
         {
             car.Trim = trim;
             return this;
         }
 
-        ICarBuilder ICarBuilder.WithVin(string vin)
+        public ICarBuilder WithVin(string vin)
         {
             car.Vin = vin;
             return this;
         }
 
-        ICarBuilder ICarBuilder.WithCarSumaryDecorator()
+        public ICarBuilder WithCarSumaryDecorator()
         {
             car = new CarSumaryDecorator(car);
             return this;
