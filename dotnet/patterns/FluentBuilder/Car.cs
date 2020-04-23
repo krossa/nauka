@@ -1,7 +1,7 @@
 //Builder pattern
 using System.Text;
 
-namespace patterns.Services
+namespace patterns.FluentBuilder
 {
     public class Car : ICar
     {

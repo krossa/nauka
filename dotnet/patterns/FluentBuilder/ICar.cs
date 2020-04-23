@@ -1,4 +1,4 @@
-namespace patterns.Services
+namespace patterns.FluentBuilder
 {
     public interface ICar
     {

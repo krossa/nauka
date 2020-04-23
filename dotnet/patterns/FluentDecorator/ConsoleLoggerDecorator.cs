@@ -1,4 +1,6 @@
-namespace patterns.Services
+using patterns.FluentBuilder;
+
+namespace patterns.FluentDecorator
 {
     public class ConsoleLoggerDecorator : ICar
     {

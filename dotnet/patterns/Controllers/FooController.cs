@@ -4,7 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using patterns.Services;
+using patterns.FluentBuilder;
+using patterns.FluentDecorator;
 
 namespace patterns.Controllers
 {
@@ -22,26 +23,35 @@ namespace patterns.Controllers
         }
 
         [HttpGet]
-        public string Get()
+        [Route("builder")]
+        public string Builder()
         {
-            var carOld = new Car.Builder(1234, "audi", "q7")
+            var car = new Car.Builder(1234, "audi", "q7")
                 .WithColor("red")
                 .WithMileage(666)
-                .WithVin("REWF426232626JK")
-                .Build();
-            _logger.LogInformation(carOld.Mileage.ToString());
-            _logger.LogInformation(carOld.Vin);
-
-            var car = CarBuilder.Start(1234, "audi", "q7")
-                .WithColor("red")
-                .WithMileage(666)
-                .WithConsoleLogger(consoleLogger,1)
-                .WithCarSumaryDecorator()
-                .WithConsoleLogger(consoleLogger,2)
                 .WithVin("REWF426232626JK")
                 .Build();
             _logger.LogInformation(car.Mileage.ToString());
             _logger.LogInformation(car.Vin);
+
+            return car.Summary();
+        }
+
+        [HttpGet]
+        [Route("decorator")]
+        public string Decorator()
+        {
+            var car = CarBuilder.Start(1234, "audi", "q7")
+                .WithColor("red")
+                .WithMileage(666)
+                .WithConsoleLogger(consoleLogger, 1)
+                .WithCarSumaryDecorator()
+                .WithConsoleLogger(consoleLogger, 2)
+                .WithVin("REWF426232626JK")
+                .Build();
+            _logger.LogInformation(car.Mileage.ToString());
+            _logger.LogInformation(car.Vin);
+
             return car.Summary();
         }
     }

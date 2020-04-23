@@ -1,4 +1,4 @@
-namespace patterns.Services
+namespace patterns.FluentDecorator
 {
     public interface IConsoleLogger
     {

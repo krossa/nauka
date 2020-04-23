@@ -1,6 +1,7 @@
 using System.Text;
+using patterns.FluentBuilder;
 
-namespace patterns.Services
+namespace patterns.FluentDecorator
 {
     public class CarSumaryDecorator : ICar
     {
