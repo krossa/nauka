@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using patterns.Cqs;
+using patterns.Cqs.Result;
+using patterns.Cqs.Services;
 using patterns.FluentBuilder;
 using patterns.FluentDecorator;
 
@@ -15,11 +18,16 @@ namespace patterns.Controllers
     {
         private readonly ILogger<FooController> _logger;
         private readonly IConsoleLogger consoleLogger;
+        private readonly IBus bus;
 
-        public FooController(ILogger<FooController> logger, IConsoleLogger consoleLogger)
+        public FooController(
+            ILogger<FooController> logger,
+             IConsoleLogger consoleLogger,
+             IBus bus)
         {
             _logger = logger;
             this.consoleLogger = consoleLogger;
+            this.bus = bus;
         }
 
         [HttpGet]
@@ -53,6 +61,26 @@ namespace patterns.Controllers
             _logger.LogInformation(car.Vin);
 
             return car.Summary();
+        }
+
+        [HttpGet]
+        [Route("cqs")]
+        [Route("cqs/{name}")]
+        public async Task<string> Cqs(string name = "RON")
+        {
+            var userQ = new GetUserQuery() { Name = name };
+
+            var result = await bus.SendAsync(userQ);
+            var res = result.Match(u => u, HandleError);
+            return res?.Name;
+        }
+
+        private User HandleError(Error e)
+        {
+            _logger.LogInformation("ERROR HANDLER");
+            _logger.LogError(e.Code.ToString());
+            _logger.LogError(e.Message);
+            return null;
         }
     }
 }
