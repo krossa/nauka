@@ -1,0 +1,9 @@
+CREATE TABLE Ratings
+(
+    Score DECIMAL NOT NULL
+) AS EDGE
+
+CREATE TABLE Friends
+(
+    ConnectedOn DATETIME NOT NULL
+) AS EDGE
