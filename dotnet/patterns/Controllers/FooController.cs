@@ -12,6 +12,7 @@ using patterns.Cqs.Result;
 using patterns.Cqs.Services;
 using patterns.FluentBuilder;
 using patterns.FluentDecorator;
+using patterns.state;
 
 namespace patterns.Controllers
 {
@@ -95,6 +96,20 @@ namespace patterns.Controllers
                 CanFloat = false
             };
             service.InsertVehicleModel(boat);
+        }
+
+        [HttpGet]
+        [Route("state")]
+        public void State()
+        {
+            Account account = new Account("Jane Doe");
+
+            account.Deposit(500.0);
+            account.Deposit(300.0);
+            account.Deposit(550.0);
+            account.PayInterest();
+            account.Withdraw(2000.00);
+            account.Withdraw(1100.00);
         }
 
         private User HandleError(Error e)
