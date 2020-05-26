@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using patterns.cor;
+using patterns.cor.models;
+using patterns.cor.validation;
 using patterns.Cqs;
 using patterns.Cqs.Result;
 using patterns.Cqs.Services;
@@ -73,6 +76,25 @@ namespace patterns.Controllers
             var result = await bus.SendAsync(userQ);
             var res = result.Match(u => u, HandleError);
             return res?.Name;
+        }
+
+        [HttpGet]
+        [Route("cor")]
+        public void ChainOfResponsibility([FromServices] IVehicleService service)
+        {
+            var car = new CarModel
+            {
+                Wheels = 4,
+                HasEngine = true
+            };
+            service.InsertVehicleModel(car);
+
+            var boat = new BoatModel
+            {
+                Wheels = 3,
+                CanFloat = false
+            };
+            service.InsertVehicleModel(boat);
         }
 
         private User HandleError(Error e)
