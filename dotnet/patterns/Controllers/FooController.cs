@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using patterns.command;
 using patterns.cor;
 using patterns.cor.models;
 using patterns.cor.validation;
@@ -50,21 +51,15 @@ namespace patterns.Controllers
         }
 
         [HttpGet]
-        [Route("decorator")]
-        public string Decorator()
+        [Route("command")]
+        public void Command()
         {
-            var car = CarBuilder.Start(1234, "audi", "q7")
-                .WithColor("red")
-                .WithMileage(666)
-                .WithConsoleLogger(consoleLogger, 1)
-                .WithCarSumaryDecorator()
-                .WithConsoleLogger(consoleLogger, 2)
-                .WithVin("REWF426232626JK")
-                .Build();
-            _logger.LogInformation(car.Mileage.ToString());
-            _logger.LogInformation(car.Vin);
+            Invoker invoker = new Invoker();
+            invoker.SetOnStart(new SimpleCommand("Say Hi!"));
+            Receiver receiver = new Receiver();
+            invoker.SetOnFinish(new ComplexCommand(receiver, "Send email", "Save report"));
 
-            return car.Summary();
+            invoker.DoSomethingImportant();
         }
 
         [HttpGet]
@@ -96,6 +91,24 @@ namespace patterns.Controllers
                 CanFloat = false
             };
             service.InsertVehicleModel(boat);
+        }
+
+        [HttpGet]
+        [Route("decorator")]
+        public string Decorator()
+        {
+            var car = CarBuilder.Start(1234, "audi", "q7")
+                .WithColor("red")
+                .WithMileage(666)
+                .WithConsoleLogger(consoleLogger, 1)
+                .WithCarSumaryDecorator()
+                .WithConsoleLogger(consoleLogger, 2)
+                .WithVin("REWF426232626JK")
+                .Build();
+            _logger.LogInformation(car.Mileage.ToString());
+            _logger.LogInformation(car.Vin);
+
+            return car.Summary();
         }
 
         [HttpGet]
