@@ -68,9 +68,9 @@ namespace patterns.Controllers
         public async Task<string> Cqs(string name = "RON")
         {
             var userQ = new GetUserQuery() { Name = name };
-
             var result = await bus.SendAsync(userQ);
             var res = result.Match(u => u, HandleError);
+            
             return res?.Name;
         }
 

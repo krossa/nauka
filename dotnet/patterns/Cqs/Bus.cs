@@ -1,9 +1,12 @@
 //https://github.com/darjanbogdan/pype/tree/master/src
 using System;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
+using patterns.Cqs.Notifications;
 using patterns.Cqs.Requests;
 using patterns.Cqs.Result;
 
@@ -18,12 +21,12 @@ namespace patterns.Cqs
         private static readonly Type _busType = typeof(Bus);
         private static readonly ConcurrentDictionary<Type, Type> _handlerTypes = new ConcurrentDictionary<Type, Type>();
         private static readonly ConcurrentDictionary<(Type RequestType, Type ResponseType), Delegate> _sendAsyncDelegates = new ConcurrentDictionary<(Type, Type), Delegate>();
-        // private static readonly ConcurrentDictionary<Type, PublishAsyncDelegate> _publishAsyncDelegates = new ConcurrentDictionary<Type, PublishAsyncDelegate>();
+        private static readonly ConcurrentDictionary<Type, PublishAsyncDelegate> _publishAsyncDelegates = new ConcurrentDictionary<Type, PublishAsyncDelegate>();
 
         #endregion Cache Fields
 
         private delegate Task<Result<TResponse>> SendAsyncDelegate<TResponse>(object request, Type requestType, CancellationToken cancellation);
-        // private delegate Task PublishAsyncDelegate(object notification, Type notificationType, CancellationToken cancellation);
+        private delegate Task PublishAsyncDelegate(object notification, Type notificationType, CancellationToken cancellation);
 
         public Bus(Func<Type, object> instanceFactory)
         {
@@ -88,69 +91,69 @@ namespace patterns.Cqs
 
         #region Publish Notification
 
-        // public Task PublishAsync(INotification notification, CancellationToken cancellation = default)
-        // {
-        //     if (notification == null) throw new ArgumentNullException(nameof(notification));
+        public Task PublishAsync(INotification notification, CancellationToken cancellation = default)
+        {
+            if (notification == null) throw new ArgumentNullException(nameof(notification));
 
-        //     var notificationType = notification.GetType();
+            var notificationType = notification.GetType();
 
-        //     PublishAsyncDelegate publishDelegate = GetPublishAsyncDelegate(notificationType);
+            PublishAsyncDelegate publishDelegate = GetPublishAsyncDelegate(notificationType);
 
-        //     return publishDelegate(notification, notificationType, cancellation);
-        // }
+            return publishDelegate(notification, notificationType, cancellation);
+        }
 
-        // /// <summary>
-        // /// Internal publish notification method which dictates the way of handler tasks invocations.
-        // /// </summary>
-        // /// <param name="handleTaskFactories">The handle task factories.</param>
-        // /// <returns></returns>
-        // protected virtual Task PublishInternalAsync(IEnumerable<Func<Task>> handleTaskFactories)
-        // {
-        //     return Task.WhenAll(handleTaskFactories.Select(factory => factory.Invoke()));
-        // }
+        /// <summary>
+        /// Internal publish notification method which dictates the way of handler tasks invocations.
+        /// </summary>
+        /// <param name="handleTaskFactories">The handle task factories.</param>
+        /// <returns></returns>
+        protected virtual Task PublishInternalAsync(IEnumerable<Func<Task>> handleTaskFactories)
+        {
+            return Task.WhenAll(handleTaskFactories.Select(factory => factory.Invoke()));
+        }
 
-        // private PublishAsyncDelegate GetPublishAsyncDelegate(Type notificationType)
-        // {
-        //     return _publishAsyncDelegates.GetOrAdd(
-        //         key: notificationType,
-        //         valueFactory: type => CreatePublishAsyncDelegate(type)
-        //         );
+        private PublishAsyncDelegate GetPublishAsyncDelegate(Type notificationType)
+        {
+            return _publishAsyncDelegates.GetOrAdd(
+                key: notificationType,
+                valueFactory: type => CreatePublishAsyncDelegate(type)
+                );
 
-        //     PublishAsyncDelegate CreatePublishAsyncDelegate(Type notificationType)
-        //     {
-        //         MethodInfo publishMethod = _busType
-        //             .GetMethod(nameof(PublishAsync), BindingFlags.Instance | BindingFlags.NonPublic)
-        //             .MakeGenericMethod(notificationType);
+            PublishAsyncDelegate CreatePublishAsyncDelegate(Type notificationType)
+            {
+                MethodInfo publishMethod = _busType
+                    .GetMethod(nameof(PublishAsync), BindingFlags.Instance | BindingFlags.NonPublic)
+                    .MakeGenericMethod(notificationType);
 
-        //         var publishDelegateType = typeof(PublishAsyncDelegate);
+                var publishDelegateType = typeof(PublishAsyncDelegate);
 
-        //         return (PublishAsyncDelegate)Delegate.CreateDelegate(publishDelegateType, firstArgument: this, publishMethod);
-        //     }
-        // }
+                return (PublishAsyncDelegate)Delegate.CreateDelegate(publishDelegateType, firstArgument: this, publishMethod);
+            }
+        }
 
-        // private Task PublishAsync<TNotification>(object notification, Type notificationType, CancellationToken cancellation = default) where TNotification : INotification
-        // {
-        //     var enumerableHandlerType = _handlerTypes.GetOrAdd(notificationType, _ => typeof(IEnumerable<INotificationHandler<TNotification>>));
+        private Task PublishAsync<TNotification>(object notification, Type notificationType, CancellationToken cancellation = default) where TNotification : INotification
+        {
+            var enumerableHandlerType = _handlerTypes.GetOrAdd(notificationType, _ => typeof(IEnumerable<INotificationHandler<TNotification>>));
             
-        //     var handlers = CreateHandlers(enumerableHandlerType);
+            var handlers = CreateHandlers(enumerableHandlerType);
 
-        //     var handleTaskFactories = handlers.Select(h => new Func<Task>(() => h.HandleAsync((TNotification)notification, cancellation)));
+            var handleTaskFactories = handlers.Select(h => new Func<Task>(() => h.HandleAsync((TNotification)notification, cancellation)));
 
-        //     return PublishInternalAsync(handleTaskFactories);
+            return PublishInternalAsync(handleTaskFactories);
 
-        //     IEnumerable<INotificationHandler<TNotification>> CreateHandlers(Type enumerableHandlerType)
-        //     {
-        //         try
-        //         {
-        //             return (IEnumerable<INotificationHandler<TNotification>>)_instanceFactory(enumerableHandlerType)
-        //                 ?? throw new ArgumentNullException(nameof(enumerableHandlerType), $"Type {enumerableHandlerType} resolved to null by the instance factory method.");
-        //         }
-        //         catch (Exception ex)
-        //         {
-        //             throw new ArgumentException($"Handler collection creation failed. Type {enumerableHandlerType} must be resolvable by the instance factory method.", ex);
-        //         }
-        //     }
-        // }
+            IEnumerable<INotificationHandler<TNotification>> CreateHandlers(Type enumerableHandlerType)
+            {
+                try
+                {
+                    return (IEnumerable<INotificationHandler<TNotification>>)_instanceFactory(enumerableHandlerType)
+                        ?? throw new ArgumentNullException(nameof(enumerableHandlerType), $"Type {enumerableHandlerType} resolved to null by the instance factory method.");
+                }
+                catch (Exception ex)
+                {
+                    throw new ArgumentException($"Handler collection creation failed. Type {enumerableHandlerType} must be resolvable by the instance factory method.", ex);
+                }
+            }
+        }
 
         #endregion Publish Notification
     }
