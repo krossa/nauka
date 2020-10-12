@@ -3,15 +3,13 @@ using System.Text;
 using Bridge.Pattern.BridgePatternApproach;
 using Bridge.Pattern.NaiveApproach;
 using TimeEntry = Bridge.Pattern.NaiveApproach.TimeEntry;
-
+//https://medium.com/net-core/how-to-avoid-exponential-growth-of-classes-by-applying-bridge-pattern-in-c-2d437e203f82
 namespace Bridge.Pattern
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-
             NaiveApproachRun();
             Console.WriteLine();
             BridgeApproach();
