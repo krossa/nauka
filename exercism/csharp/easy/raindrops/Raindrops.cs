@@ -1,15 +1,19 @@
-using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public static class Raindrops
 {
+    private static IReadOnlyDictionary<int, string> conditions = new Dictionary<int, string>
+    {
+        {3, "Pling"},
+        {5, "Plang"},
+        {7, "Plong"},
+    };
+
     public static string Convert(int number)
     {
-        var result = "";
-        if (number % 3 == 0) result += "Pling";
-        if (number % 5 == 0) result += "Plang";
-        if (number % 7 == 0) result += "Plong";
-        if (String.IsNullOrEmpty(result))
-            return number.ToString();
-        return result;
+        var raindrops = conditions.Where(c => number % c.Key == 0).Select(c => c.Value);
+
+        return raindrops.Any() ? string.Join("", raindrops) : number.ToString();
     }
 }
