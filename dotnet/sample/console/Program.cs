@@ -16,7 +16,8 @@ public class ChainLink
         rightPart.Left = this;
     }
 
-    public Side LongerSide( )   {
+    public Side LongerSide()
+    {
         var nextLeft = Left;
         var nextRight = Right;
 
