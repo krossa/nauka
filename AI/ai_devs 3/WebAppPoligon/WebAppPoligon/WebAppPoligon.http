@@ -1,0 +1,6 @@
+@WebAppPoligon_HostAddress = http://localhost:5182
+
+GET {{WebAppPoligon_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
